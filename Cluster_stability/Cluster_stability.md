@@ -41,7 +41,7 @@ clustree_out <- clustree(cluster_df_sub[, ], prefix = "leiden_row_", node_colour
 clustree_out
 ```
 
-![](Clustree_plot.png)<!-- -->
+![](images/Clustree_plot.png)<!-- -->
 
 ``` r
 # Save cluster purity output 
