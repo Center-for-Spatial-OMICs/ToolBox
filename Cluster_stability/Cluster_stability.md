@@ -5,6 +5,9 @@ M, Marcao
 
 ``` r
 # Load
+library(data.table)
+library(dplyr)
+library(clustree)
 adata_obs <- fread("/mnt/scratch1/maycon/genesis_embryo_lego/round_4/objects/cluster0_subclustering_multiple_res.csv", header = TRUE) %>% as.data.frame()
 head(adata_obs)[, 14:17]
 ```
