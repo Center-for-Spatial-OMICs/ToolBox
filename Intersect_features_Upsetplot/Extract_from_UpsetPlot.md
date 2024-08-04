@@ -29,7 +29,7 @@ upset(fromList(input_UpsetPlot), order.by = "freq", nsets = length(input_UpsetPl
 
 ![](Extract_from_UpsetPlot_files/figure-gfm/Prepare%20data-1.png)<!-- -->
 
-### 1. How to extract most overlapped features
+###### 1. How to extract most overlapped features
 
 ``` r
 x <- upset(fromList(input_UpsetPlot), nsets = 22)
