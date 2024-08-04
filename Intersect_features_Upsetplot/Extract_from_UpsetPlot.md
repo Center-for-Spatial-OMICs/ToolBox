@@ -29,7 +29,7 @@ upset(fromList(input_UpsetPlot), order.by = "freq", nsets = length(input_UpsetPl
 
 ![](Extract_from_UpsetPlot_files/figure-gfm/Prepare%20data-1.png)<!-- -->
 
-1. How to extract most overlapped features
+### 1. How to extract most overlapped features
 
 ``` r
 x <- upset(fromList(input_UpsetPlot), nsets = 22)
@@ -88,7 +88,7 @@ upset(fromList(filtered_list_1), order.by = "freq", nsets = length(filtered_list
 
 ![](Extract_from_UpsetPlot_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
-2.  How to extract exclusively features
+### 2.  How to extract exclusively features
 
 ``` r
 exclusively_features <- x1[ rowSums(x$New_data) == 1 ]
@@ -297,7 +297,7 @@ upset(fromList(filtered_list_2), order.by = "freq", nsets = length(filtered_list
 
 ![](Extract_from_UpsetPlot_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
-3.  How to extract from a given intersection
+### 3.  How to extract from a given intersection
 
 ``` r
 # Get features intersect ONLY within gene_list1 and gene_list2
